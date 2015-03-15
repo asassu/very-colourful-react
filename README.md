@@ -1,6 +1,6 @@
 # very-colourful-react
 
-Yelp Frontend powered by ReactJS
+COLOURlovers powered by ReactJS
 
 
 # Deploy
