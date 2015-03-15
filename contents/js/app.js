@@ -11,9 +11,14 @@ $( "#colours" ).on( "click", function( event ) {
 })
 
 $( "#palettes" ).on( "click", function( event ) {
-    React.render(
-        <PaletteList url='data/palettes.json.data'/>,
-        document.getElementById('content')
-    )
+    $.getJSON("http://www.colourlovers.com/api/palettes/top?jsonCallback=?",
+      { numResults: 10 },
+      function(allPalettes) {
+        React.render(
+            <ColourList data={allPalettes}/>,
+            document.getElementById('content')
+        )
+      }
+    );
 })
 
