@@ -19,6 +19,19 @@ img {
 	padding: 2px;
 }
 
+body{
+	background-color: #bbb;
+}
+
+.container{
+	background-color: #fff;
+	padding: 20px;
+}
+
+#content{
+	min-height: 500px;
+}
+
 .colorBox{
 	width: 150px;
 	height: 150px;

@@ -23,8 +23,6 @@ var ColourView = React.createClass({
                         <li>Rank: {this.state.colour.rank}</li>
                     </ul>
 
-                    <p>{this.state.colour.description}</p>
-
                 </div>
             )
 

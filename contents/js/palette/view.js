@@ -25,8 +25,6 @@ var PaletteView = React.createClass({
                         <li>Rank: {this.state.palette.rank}</li>
                     </ul>
 
-                    <p>{this.state.palette.description}</p>
-
                 </div>
             )
         }
