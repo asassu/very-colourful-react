@@ -11,11 +11,8 @@ var PaletteListItem = React.createClass({
 
         return ( 
             <div className="palette row" >
-                <div className="paletteName six columns" onClick={this.handleClick}>
+                <div className="listOfNames twelve columns" onClick={this.handleClick}>
                     {palette.title}                    
-                </div>
-                <div className="paletteCity six columns">
-                    {palette.dateCreated}   
                 </div>
            </div>
         )

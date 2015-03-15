@@ -11,11 +11,8 @@ var ColourListItem = React.createClass({
 
         return ( 
             <div className="colour row" >
-                <div className="colourName six columns" onClick={this.handleClick}>
+                <div className="listOfNames twelve columns" onClick={this.handleClick}>
                     {colour.title}                    
-                </div>
-                <div className="colourCity six columns">
-                    {colour.hex}   
                 </div>
             </div>
         )

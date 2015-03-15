@@ -26,3 +26,15 @@ img {
 	padding: 0px;
 	display: inline-block;
 }
+
+.listItem{
+	text-align: center;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.listOfNames{
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: italic;
+}

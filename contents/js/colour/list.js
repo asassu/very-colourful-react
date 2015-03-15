@@ -22,10 +22,10 @@ var ColourList = React.createClass({displayName: 'ColourList',
 
         return (
             <div className="colourPage">
-                <div className="colourList six columns">
+                <div className="colourList five columns">
                     {colours}
                 </div>
-                <div className="colourView six columns">
+                <div className="colourView seven columns">
                     <ColourView ref="colourView"/>
                 </div>
             </div>

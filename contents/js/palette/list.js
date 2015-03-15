@@ -22,10 +22,10 @@ var PaletteList = React.createClass({displayName: 'PaletteList',
 
         return (
             <div className="palettePage">
-                <div className="paletteList six columns">
+                <div className="paletteList five columns">
                     {palettes}
                 </div>
-                <div className="paletteView six columns">
+                <div className="paletteView seven columns">
                     <PaletteView ref="paletteView"/>
                 </div>
             </div>

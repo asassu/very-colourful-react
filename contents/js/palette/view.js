@@ -13,7 +13,20 @@ var PaletteView = React.createClass({
                     <h2 className="paletteName">
                         {this.state.palette.title}
                     </h2>
-                    {this.state.palette.userName}
+                    <h4>Created by {this.state.palette.userName}</h4>
+
+                    {this.state.palette.colors.map(function(myColor) {
+                      return <div className="colorBox" style={{"backgroundColor": "#" + myColor}}>#{myColor}</div>
+                    })}
+
+                    <ul>
+                        <li>Total Views: {this.state.palette.numViews}</li>
+                        <li>Total Votes: {this.state.palette.numVotes}</li>
+                        <li>Rank: {this.state.palette.rank}</li>
+                    </ul>
+
+                    <p>{this.state.palette.description}</p>
+
                 </div>
             )
         }
