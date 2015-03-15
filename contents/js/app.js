@@ -15,7 +15,7 @@ $( "#palettes" ).on( "click", function( event ) {
       { numResults: 10 },
       function(allPalettes) {
         React.render(
-            <ColourList data={allPalettes}/>,
+            <PaletteList data={allPalettes}/>,
             document.getElementById('content')
         )
       }

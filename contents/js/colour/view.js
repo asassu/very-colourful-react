@@ -14,6 +14,8 @@ var ColourView = React.createClass({
                         {this.state.colour.title}
                     </h2>
                     {this.state.colour.hex}
+
+
                 </div>
             )
 

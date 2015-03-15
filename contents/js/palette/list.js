@@ -5,7 +5,7 @@ var PaletteList = React.createClass({displayName: 'PaletteList',
     },
 
     handleListItemClicked: function(id){
-        var palette = _.find(this.state.data, {id: id})
+        var palette = _.find(this.props.data, {id: id})
         this.refs.paletteView.setState({palette:palette})
     },
 
@@ -13,7 +13,7 @@ var PaletteList = React.createClass({displayName: 'PaletteList',
 
         var self = this
 
-        var palettes = this.state.data.map(function (palette) {
+        var palettes = this.props.data.map(function (palette) {
         
           return (    
             <PaletteListItem palette={palette} onListItemClicked={self.handleListItemClicked}/>
