@@ -18,3 +18,36 @@ img {
 	border: 1px #aaa solid;
 	padding: 2px;
 }
+
+body{
+	background-color: #bbb;
+}
+
+.container{
+	background-color: #fff;
+	padding: 20px;
+}
+
+#content{
+	min-height: 500px;
+}
+
+.colorBox{
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.listItem{
+	text-align: center;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.listOfNames{
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: italic;
+}
